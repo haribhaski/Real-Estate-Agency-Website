@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-in">
+<head>
+    <link rel="shortcut icon" type="image/png" href="Images/Logo copy.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap">
+    <title>JH Real Estate Agency</title>
+    <link rel="stylesheet" href="listing.css">
+    <script src="listing.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="Images/Logo copy.png" class="logoimg">
+        <h1>JH Real Estate Agency</h1>
+        <nav>
+            <ul>
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="properties.html">Properties</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p class="motto">Where dreams come home</p>
+    </header>
+    <div id="property-details" class="proplist"></div>
+    <div class="form-section">
+        <h2>Enquiry Form</h2>
+        <form id="contact-form" action="properties.html" onsubmit="return submitForm(event)">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <footer>
+        <p class="end">Corporate E-Mail ID: JH_India@gmail.com</p>
+        <p class="end">HQ Address: G-12 Tidel Park, Perungudi, Chennai, Tamil Nadu, India - 600012</p><br>
+        <p>&copy; 2024 JH Real Estate. All rights reserved.<br></p>
+    </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,184 @@
+html{
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    color: rgb(69, 64, 64);
+    margin: 0;
+    padding: 0;
+}
+.logoimg{
+    height:190px;
+    width:150px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+header {
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
+}
+.subheading{
+    font-size: 60px; 
+    font-weight: 500;
+    padding: 38px; 
+    margin: 10px;
+    padding-left:50px;
+    margin-bottom: 0px; 
+    padding-bottom: 0px; 
+    color: rgb(160, 174, 2);
+}
+footer{
+    background-color: #f0f0f0;
+    width: 100%;
+    font-size: 16px;
+    padding:15px;
+    padding-left:20px;
+    float:inline-end;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 100;
+    display: inline-block; /* Display as inline-block to align with nav */
+    vertical-align: middle; /* Align vertically with nav */
+}
+.intro{
+    font-weight: 100;
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    padding:45px;
+
+}
+nav {
+    padding-left: 20px;
+    display: inline-block; /* Display as inline-block to align with h1 */
+    vertical-align:middle; /* Align vertically with h1 */
+}
+
+nav ul {
+    list-style-type: none;
+    padding-right: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size:24px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    transition: font-size 0.1s;
+    font-size: 24.5px;
+    transform: scale(0.5);
+    color:rgb(160, 174, 2);
+}
+
+
+.motto {
+    font-size: 20px;
+    font-weight: 100;
+    font-style: oblique;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+.fimgdiv {
+    width: 100%;
+    float:right; 
+    padding:0px,20px;
+}
+
+.fimg {
+    width: 100%; /* Ensure image takes full width of its container */
+    height: auto;
+}
+
+.motto {
+    font-size: 24px; 
+    font-weight: 50; 
+    font-style: oblique;
+    padding: 10px 20px; 
+    margin: 0 auto; 
+    max-width: 600px; 
+    text-align: center; 
+    border-top: 2px solid rgba(0, 0, 0, 0.1); 
+    color: rgb(160, 174, 2);
+}
+.intro{
+    font-weight: 100;
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    padding:45px;
+    line-height:1.1
+}
+
+
+
+/* Responsive design */
+
+@media screen and (max-width: 600px) {
+    header, nav, main, footer {
+        padding: 10px;
+    }
+}
+.Name{
+    padding :20px;
+    padding-left: 35px;
+}
+
+.proplist{
+    width:78%;
+    padding:20px 100px;
+    padding-top:2em;
+    float: left;
+    font-size:x-large;
+    font-family: 'Josefin Sans';
+}
+
+.form-section{
+    border: grey solid;
+    border-radius:5%;
+    padding: 10px 20px;
+    margin:80px 20px;
+    margin-top: 200px;
+    width:19%;
+    float:inline-end;
+    position: relative;
+}
+.form-section h2{
+    text-align:center;
+}
+.form-section label{
+    font-size:larger;
+}
+.form-section input{
+    margin:10px 0px;
+    padding:5px 0px;
+    font-size: 1em;
+}
+.pname{
+    font-size:3em;
+    font-weight: 400;
+    padding:40px 10px;
+    padding-top: 60px;
+    margin:0;
+}
+.FA{
+    font-weight: 600;
+    font-size:40px;
+    padding:15px 0;
+}

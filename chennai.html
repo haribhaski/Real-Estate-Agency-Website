@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-in">
+<head>
+    <link rel="shortcut icon" type="image/png" href="Images/Logo copy.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap">
+    <title>JH Real Estate Agency</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="chennai.js" defer></script>
+    <link rel="stylesheet" href="chennai.css">
+</head>
+<body>
+    <header>
+        <img src="Images/Logo copy.png" class="logoimg">
+        <h1>JH Real Estate Agency</h1>
+        <nav>
+            <ul>
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="properties.html">Properties</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p class="motto">Where dreams come home</p>
+    </header>
+
+    <section>
+        <div>
+            <p class="subheading">Properties in Chennai</p>
+        </div>
+    </section>
+
+    <div class="filter-box">
+        <a href="#">Filter</a>
+        <section>
+            <div class="filter-content">
+                <h5>Filter By</h5>
+                <div class="filter-group">
+                    <div class="filter-option">
+                        <label for="price">Maximum Price:</label>
+                        <input type="number" id="price" name="price" placeholder="Enter maximum price">
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <div class="filter-option">
+                        <label for="bhk-dropdown">BHK:</label>
+                        <select id="bhk-dropdown">
+                            <option value="0">Any</option>
+                            <option value="1">1 BHK</option>
+                            <option value="2">2 BHK</option>
+                            <option value="3">3 BHK</option>
+                            <option value="4">4 BHK</option>
+                            <option value="5">5 BHK</option>
+                            <option value="6">6+ BHK</option>
+                        </select>
+                    </div>
+                    <div class="filter-option">
+                        <label for="furnishing-dropdown">Furnishing:</label>
+                        <select id="furnishing-dropdown">
+                            <option value="Any">Any</option>
+                            <option value="Furnished">Furnished</option>
+                            <option value="Semifurnished">Semi-furnished</option>
+                            <option value="Unfurnished">Unfurnished</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="apply-button">Apply</button>
+                <button id="reset-button" onclick="resetFilters()">Reset</button>
+            </div>
+        </section>
+    </div>
+    <section class="Prop">
+        <section class="property-listing">
+            <!-- Property listings will be dynamically rendered here -->
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="end">Corporate E-Mail ID: JH_India@gmail.com</p>
+        <p class="end">HQ Address: G-12 Tidel Park, Perungudi, Chennai, Tamil Nadu, India - 600012</p><br>
+        <p>&copy; 2024 JH Real Estate. All rights reserved.<br></p>
+    </footer>
+</body>
+
+</html>

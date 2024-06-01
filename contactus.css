@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    color: rgb(69, 64, 64);
+    margin: 0;
+    padding: 0;
+}
+.logoimg{
+    height:190px;
+    width:150px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+header {
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
+}
+.subheading{
+    font-size: 60px; 
+    font-weight: 500;
+    padding: 38px; 
+    margin: 10px;
+    padding-left:100px;
+    margin-bottom: 0px; 
+    padding-bottom: 0px; 
+    color: rgb(160, 174, 2);
+}
+
+footer{
+    background-color: #f0f0f0;
+    width: 100%;
+    font-size: 16px;
+    padding:15px;
+    padding-left:20px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 100;
+    display: inline-block; /* Display as inline-block to align with nav */
+    vertical-align: middle; /* Align vertically with nav */
+}
+
+nav {
+    padding-left: 20px;
+    display: inline-block; /* Display as inline-block to align with h1 */
+    vertical-align:middle; /* Align vertically with h1 */
+}
+
+nav ul {
+    list-style-type: none;
+    padding-right: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size:24px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    transition: font-size 0.1s;
+    font-size: 24.5px;
+    transform: scale(0.5);
+    color:rgb(160, 174, 2);
+}
+
+.motto {
+    font-size: 20px;
+    font-weight: 100;
+    font-style: oblique;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+.motto {
+    font-size: 24px; 
+    font-weight: 50; 
+    font-style: oblique;
+    padding: 10px 20px; 
+    margin: 0 auto; 
+    max-width: 600px; 
+    text-align: center; 
+    border-top: 2px solid rgba(0, 0, 0, 0.1); 
+    color: rgb(160, 174, 2);
+}
+
+
+.cimg{
+    background-image: url('Images/pexels-pixabay-269077.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%;
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    padding-right: 20px;
+    font-family: 'Josefin Sans';
+}
+.contact-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the box */
+    padding: 20px; /* Adds padding inside the box */
+    border-radius: 10px; /* Rounds the corners of the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow to the box */
+    max-width: 300px; /* Optional: Limits the box width */
+    text-align: center; 
+    font-size: larger;
+    padding:30px;
+}
+
+.contact-box h1 {
+    margin: 0; /* Removes the default margin */
+    font-size: 24px; /* Sets the font size */
+    color: #333; /* Sets the font color */
+}
+.contact{
+    color: rgb(160, 174, 2);
+    font-weight: 600;
+    font-size: 40px;
+    font-family:  Copperplate, "Copperplate Gothic Light", fantasy;
+}
+.smail{
+    text-decoration: none;
+    padding:5px 10px;
+    color:rgba(176,76,43,255);
+}
